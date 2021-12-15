@@ -1,0 +1,25 @@
+<h3>Azure AD Authentication demo</h3>
+
+<table *ngIf="isLoggedIn">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Designation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <td>{{ employee.employeeID }}</td>
+      <td>{{ employee.name }}</td>
+      <td>{{ employee.age }}</td>
+      <td>{{ employee.designation }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<button (click)="getUser()">User Name</button>  
+<button *ngIf="isLoggedIn" (click)="logout()">Logout</button> 
