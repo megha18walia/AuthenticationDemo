@@ -1,0 +1,17 @@
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+D:\D\Demo-YouTube\Demodata\Console\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll

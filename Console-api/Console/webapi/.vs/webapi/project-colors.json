@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3b7aa3d2-c176-42d9-9673-e8956ca896e9": {
+      "ProjectGuid": "3b7aa3d2-c176-42d9-9673-e8956ca896e9",
+      "DisplayName": "webapi",
+      "ColorIndex": 0
+    },
+    "26b8e047-9569-40e8-a962-7ec2bdb8e0da": {
+      "ProjectGuid": "26b8e047-9569-40e8-a962-7ec2bdb8e0da",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
