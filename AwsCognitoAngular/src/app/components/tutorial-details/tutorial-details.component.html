@@ -1,0 +1,30 @@
+<div *ngIf="viewMode;">
+  <div *ngIf="currentTutorial.UserID">
+    <h4>Tutorial</h4>
+    <div>
+      <label><strong>Name:</strong></label> {{ currentTutorial.Name }}
+    </div>
+    <div>
+      <label><strong>Age:</strong></label>
+      {{ currentTutorial.Age }}
+    </div>
+    <div>
+      <label><strong>UserID:</strong></label>
+      {{ currentTutorial.UserID }}
+    </div>
+    <div class="input-group-append">
+      <button
+        class="btn btn-outline-secondary"
+        (click)="deleteTutorial()"
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="!currentTutorial">
+    <br />
+    <p>Please click on a Tutorial...</p>
+  </div>
+</div>
+

@@ -1,0 +1,115 @@
+<div class="row" *ngIf="didFail">
+  <div class="col-xs-12 col-sm-10 col-md-6 cold-sm-offset-1 col-md-offset-3 text-center">
+    <div class="alert alert-danger">Something went wrong, please try again!</div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-6 cold-sm-offset-1 col-md-offset-3">
+    <form class="text-center jumbotron" (ngSubmit)="onSubmit()" #usrForm="ngForm">
+      <div class="form-group">
+        <label
+          for="name"
+          class="control-label">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          ngModel
+          class="form-control text-center"
+          required>
+      </div>
+      <div class="form-group">
+        <label
+          for="username"
+          class="control-label">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          ngModel
+          class="form-control text-center"
+          required>
+      </div>
+      <div class="form-group">
+        <label
+          for="email"
+          class="control-label">Mail</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          ngModel
+          class="form-control text-center"
+          required
+          email>
+      </div>
+      <div class="form-group">
+        <label
+          for="password"
+          class="control-label">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          ngModel
+          class="form-control text-center"
+          required>
+      </div>
+      <div class="form-group">
+        <label
+          for="confirmPassword"
+          class="control-label">Confirm Password</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          ngModel
+          class="form-control text-center"
+          required>
+      </div>
+      <div *ngIf="usrForm.value.password !== usrForm.value.confirmPassword">Passwords do not match!</div>
+      <button class="btn btn-primary" type="submit"
+              [disabled]="(usrForm.value.password !== usrForm.value.confirmPassword) || usrForm.invalid">Submit
+      </button>
+    </form>
+    <div class="loader" *ngIf="isLoading"></div>
+  </div>
+</div>
+<div class="row" *ngIf="!confirmUser">
+  <div class="col-xs-12 col-sm-10 col-md-6 cold-sm-offset-1 col-md-offset-3 text-center">
+    <button class="btn btn-default" (click)="onDoConfirm()">Confirm User</button>
+  </div>
+</div>
+<div class="row" *ngIf="confirmUser">
+  <div class="col-xs-12 col-sm-10 col-md-6 cold-sm-offset-1 col-md-offset-3">
+    <form #confirmForm="ngForm" (ngSubmit)="onConfirm(confirmForm.value)" class="jumbotron text-center">
+      <div class="form-group">
+        <label
+          for="usrName"
+          class="control-label">Username</label>
+        <input
+          type="text"
+          id="usrName"
+          name="usrName"
+          ngModel
+          class="form-control text-center"
+          required>
+      </div>
+      <div class="form-group">
+        <label
+          for="validationCode"
+          class="control-label">Validation Code</label>
+        <input
+          type="text"
+          id="validationCode"
+          name="validationCode"
+          ngModel
+          class="form-control text-center"
+          required>
+      </div>
+      <button class="btn btn-primary" type="submit" [disabled]="confirmForm.invalid">Confirm your Account</button>
+    </form>
+    <div class="loader" *ngIf="isLoading"></div>
+  </div>
+</div>
+

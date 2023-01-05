@@ -1,0 +1,26 @@
+<div>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">BasicDemo</a>
+    <div class="navbar-nav mr-auto">
+      <li *ngIf="isAuthenticated" class="nav-item" routerLinkActive="active">
+        <a routerLink="tutorials" class="nav-link">Employees</a>
+      </li>
+      <li *ngIf="isAuthenticated"  class="nav-item" routerLinkActive="active">
+        <a routerLink="add" class="nav-link">Add</a>
+      </li>
+      <li *ngIf="isAuthenticated"  class="nav-item" routerLinkActive="active">
+        <a (click)="onLogout()" style="cursor: pointer;" class="nav-link">Logout</a>
+      </li>
+      <li *ngIf="!isAuthenticated"  class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a routerLink="/" class="nav-link">Sign In</a>
+      </li>
+      <li *ngIf="!isAuthenticated"  class="nav-item" routerLinkActive="active">
+        <a routerLink="/signup" class="nav-link">Sign Up</a>
+      </li>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>

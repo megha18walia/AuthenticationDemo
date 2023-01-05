@@ -1,0 +1,8 @@
+C:\Users\Meghawalia\source\repos\AWSLambda2\AWSLambda2\bin\Release\netcoreapp3.1\publish\AWSLambda2.dll
+C:\Users\Meghawalia\source\repos\AWSLambda2\AWSLambda2\bin\Release\netcoreapp3.1\publish\AWSLambda2.deps.json
+C:\Users\Meghawalia\source\repos\AWSLambda2\AWSLambda2\bin\Release\netcoreapp3.1\publish\AWSLambda2.runtimeconfig.json
+C:\Users\Meghawalia\source\repos\AWSLambda2\AWSLambda2\bin\Release\netcoreapp3.1\publish\AWSLambda2.pdb
+C:\Users\Meghawalia\source\repos\AWSLambda2\AWSLambda2\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Core.dll
+C:\Users\Meghawalia\source\repos\AWSLambda2\AWSLambda2\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Meghawalia\source\repos\AWSLambda2\AWSLambda2\bin\Release\netcoreapp3.1\publish\AWSSDK.Core.dll
+C:\Users\Meghawalia\source\repos\AWSLambda2\AWSLambda2\bin\Release\netcoreapp3.1\publish\AWSSDK.DynamoDBv2.dll

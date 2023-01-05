@@ -1,0 +1,38 @@
+<div class="row" *ngIf="didFail">
+  <div class="col-xs-12 col-sm-10 col-md-6 cold-sm-offset-1 col-md-offset-3 text-center">
+    <div class="alert alert-danger">Something went wrong, please try again!</div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-6 cold-sm-offset-1 col-md-offset-3">
+    <form class="text-center jumbotron" (ngSubmit)="onSubmit()" #usrForm="ngForm">
+      <div class="form-group">
+        <label
+          for="username"
+          class="control-label">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          ngModel
+          class="form-control text-center"
+          required>
+      </div>
+      <div class="form-group">
+        <label
+          for="password"
+          class="control-label">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          ngModel
+          class="form-control text-center"
+          required>
+      </div>
+      <button class="btn btn-primary" type="submit" [disabled]="usrForm.invalid">Submit</button>
+    </form>
+    <div class="loader" *ngIf="isLoading"></div>
+  </div>
+</div>
+

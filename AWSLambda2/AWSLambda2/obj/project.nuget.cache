@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+8PXPBgftiBHBwm4Wzgf0tmEajZLRVUPVL02vhjYTsS/hPpIOvNpd9POsHC62Y8AcoJekEZY4qXVaE5r+tOSTg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Meghawalia\\source\\repos\\AWSLambda2\\AWSLambda2\\AWSLambda2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Meghawalia\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\Meghawalia\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\Meghawalia\\.nuget\\packages\\awssdk.core\\3.7.103.6\\awssdk.core.3.7.103.6.nupkg.sha512",
+    "C:\\Users\\Meghawalia\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.101.14\\awssdk.dynamodbv2.3.7.101.14.nupkg.sha512"
+  ],
+  "logs": []
+}
